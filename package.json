@@ -1,0 +1,24 @@
+{
+  "name": "discord-auto-disconnect",
+  "version": "1.0.0",
+  "description": "A Discord bot that automatically disconnects a user from voice chat after being idle and muted/deafened for a configurable period.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "voice",
+    "automation",
+    "idle",
+    "nodejs"
+  ],
+  "author": "Jandre van Zyl",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1"
+  }
+}
